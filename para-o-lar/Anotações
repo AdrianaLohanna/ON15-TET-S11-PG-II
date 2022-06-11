@@ -1,0 +1,59 @@
+// Subir o servidor
+// 1: Primeiro criar um arquivo de server
+// 2: Depois criar uma pasta src (source) e dentro criar um arquivo chamado app (que significa application)
+// 3: Dentro de app, chamar os frameworks de express e cors, para subir o servidor e nao dar conflito de API
+// 4: Eu tenho que utilizar o express -> express() chamar como funçao
+// 5: Apos chamar o express como funçao dentro de uma variavel chamada app, utilizar o metodo use para usar as ferramentas
+// 6: Precisa utlizar o use no express.json para dizer que vai utilizar o bodyparser (que declara que é json)
+// 7: Apos isso, usar o cors dentro do use, para conseguir utilizar as funcoes do cors e nao ter conflito
+// 8: Depois disso, exportar a variavel app
+// 9: Agora posso configurar o meu server, pois o express esta conseguindo fazer requisicoes http
+// 10: Chamo a variavel app dentro do meu server
+// 11: Declaro uma variavel para chamar a porta que o servidor ira subir
+// 12: Chamo um metodo dentro de app, chamado listen (que ele vai escutar qual a porta)
+// 13: Dentro de listen, eu utilizo a porta e apos isso, faço um callback chamando uma funçao sem paramentros para imprimir no terminal a minha porta que esta rodando.
+
+
+
+//Modelo(?): -> Models Pizzaria
+// 1: Nome
+// 2: Endereco
+// 3: Telefone
+// 4: Sabores
+// 5: Pagamento = [Array opcoes de pagamento]
+// 6: Preco
+// 7: Cliente = [Array de clientes]
+
+//Modelo2(?): Clientes
+// 1: Nome
+// 2: Endereco
+// 3: Telefone
+// 4: TipoPagamento
+
+
+//Logica(?) -> Controller para pizzaria e para cliente
+// 1: Listar todos os sabores de pizza -  
+// 2: Colocar preço pra cada um deles (Eu tenho que colocar a variavel preço no modelo?)
+// 3: Cadastrar uma pizzaria
+// 4: Cadastrar clientes
+// 5: Listar todas as pizzarias
+// 6: Listar todos os clientes para o controle da pizzaria (Tem que ser uma logica dentro da pizzaria!!)
+// 7: Atualizar
+// 8: Deletar
+// 9: Exportar cada logica feita individualmente
+
+
+//Caminho para rodar a aplicacao -> Routes para pizzaria e para cliente 
+// 1: Preciso de um caminho para listar a pizzaria
+// 2: Um caminho para listar os clientes
+// 3: Um caminho para listar os sabores das pizzas
+// 4: Um caminho para cadastrar as pizzarias
+// 5: Um caminho para cadastrar um cliente
+// 6: Um caminho para atualizar
+// 7: Um caminho para deletar
+// 8: Exportar a rota
+
+//Como eu posso utilizar essas rotas (?)
+// 1: Volto dentro de app, declaro uma rota raiz, nesse caso pode se chamar /cliente e /pizzaria.
+// 2: Eu tenho que utilizar o metodo use de app para usar a rota e apontar para o arquivo de rota
+// 3: Eu preciso chamar a rota dentro de app

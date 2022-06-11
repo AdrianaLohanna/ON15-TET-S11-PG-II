@@ -1,0 +1,42 @@
+[
+    {
+        "clienteId": 1,
+        "nome": "Maria Aline dos Santos",
+        "nomeSocial": "",
+        "idade": 30,
+        "endereco": "Povoado Cruz Grande - Aquidaba - SE",
+        "telefone": "(79) 99652-3304",
+        "cpf": "111.111.111-11",
+        "tipo de pagamento": ""
+    },
+    {
+        "clienteId": 2,
+        "nome": "Darlene Lima Vieira ",
+        "nomeSocial": "Florzinha",
+        "idade": 24,
+        "endereco": "Rua Santa Clara,394 - Bugio - Aracaju",
+        "telefone": "(79) 98821-4727",
+        "cpf": "111.111.111-11",
+        "tipo de pagamento": ""
+    },
+    {
+        "clienteId": 3,
+        "nome": "Jordana Labelle Almeida",
+        "nomeSocial": "",
+        "idade": 24,
+        "endereco": "Rua Sao Cristóvão - Aracaju - SE",
+        "telefone": "(79) 98869-2168",
+        "cpf": "111.111.111-11",
+        "tipo de pagamento": ""
+    },
+    {
+        "clienteId": 4,
+        "nome": "Mônica Porto",
+        "nomeSocial": "",
+        "idade": 36,
+        "endereco": "Aracaju",
+        "telefone": "(79) 99920-4449",
+        "cpf": "111.111.111-11",
+        "tipo de pagamento": ""
+    }
+]
